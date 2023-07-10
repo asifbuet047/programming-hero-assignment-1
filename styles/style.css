@@ -71,3 +71,29 @@
     width: 100%;
     height: 100%;
 }
+
+.main-deaturedFlower-section {
+    /* border: 2px solid tomato; */
+    margin-top: 180px;
+
+}
+
+.main-deaturedFlower-section>h3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.main-deaturedFlower-section>p {
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
