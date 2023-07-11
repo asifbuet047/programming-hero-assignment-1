@@ -282,6 +282,7 @@
     border-radius: 8px;
     color: white;
     background: #E55473;
+    font-size: 20px;
 
 }
 
@@ -408,6 +409,7 @@
     border-radius: 8px;
     color: white;
     background: #E55473;
+    font-size: 20px;
 }
 
 .footer-section {
@@ -511,9 +513,11 @@
     /* border: 2px solid tomato; */
     width: 160px;
     height: 64px;
-    border-radius: 8px;
+    border-radius: 20px;
+    border-color: #E55473;
     color: white;
     background: #E55473;
+    font-size: 30px;
 }
 
 #main-higestSold-section-colom-1-header {
