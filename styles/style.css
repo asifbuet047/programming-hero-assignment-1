@@ -276,10 +276,11 @@
 }
 
 .main-hotDeal-section-colom-1>button {
-    /* border: 2px solid tomato; */
+    border: 2px solid tomato;
     width: 160px;
     height: 64px;
     border-radius: 8px;
+    color: white;
     background: #E55473;
 
 }
@@ -342,4 +343,66 @@
     width: 340px;
     height: 400px;
 
+}
+
+.main-latestDeal-section {
+    /* border: 2px solid tomato; */
+    height: 450px;
+    margin-top: 128px;
+    background-image: url(../assets/images/Rectangle\ 9.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.main-latestDeal-section>section {
+    /* border: 2px solid tomato; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-latestDeal-section>section>h2 {
+    /* border: 2px solid tomato; */
+    width: max-content;
+    margin-top: 130px;
+}
+
+.main-latestDeal-section>section>p {
+    /* border: 2px solid tomato; */
+    margin: 16px;
+    width: max-content;
+}
+
+
+.main-latestDeal-input-section {
+    /* border: 2px solid tomato; */
+    padding-top: 0px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.main-latestDeal-input-section>input {
+    /* border: 2px solid tomato; */
+    height: 64px;
+    width: 700px;
+    margin-right: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 16px;
+}
+
+.main-latestDeal-input-section>button {
+    /* border: 2px solid tomato; */
+    width: 160px;
+    height: 64px;
+    border-radius: 8px;
+    color: white;
+    background: #E55473;
 }
