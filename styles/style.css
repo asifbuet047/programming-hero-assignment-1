@@ -1,5 +1,5 @@
 #body-style {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 }
 
 .header-banner-style {
@@ -348,8 +348,11 @@
 .main-latestDeal-section {
     /* border: 2px solid tomato; */
     height: 450px;
+    width: 100%;
     margin-top: 128px;
     background-image: url(../assets/images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -405,4 +408,77 @@
     border-radius: 8px;
     color: white;
     background: #E55473;
+}
+
+.footer-section {
+    /* border: 2px solid tomato; */
+    height: 450px;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 128px;
+
+}
+
+.footer-section>div {
+    /* border: 2px solid tomato; */
+    margin-top: 128px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer-section-head-flower {
+    /* border: 2px solid tomato; */
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 250px;
+    margin: 0px;
+}
+
+#footer-section-head-shop {
+    /* border: 2px solid tomato; */
+    color: white;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 250px;
+    margin: 0px;
+}
+
+#footer-section-paragraph {
+    /* border: 2px solid tomato; */
+    width: 625px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+#footer-section-allRightReserved {
+    /* border: 2px solid tomato; */
+    width: 360px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
 }
