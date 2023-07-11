@@ -180,6 +180,7 @@
 
 .main-support-banner-div {
     /* border: 2px solid tomato; */
+    height: 320px;
     margin-top: 128px;
     display: flex;
     flex-direction: row;
@@ -192,7 +193,7 @@
     width: 530px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -208,7 +209,6 @@
     /* border: 2px solid tomato; */
     margin: 0px;
     width: 530px;
-    background-color: white;
     color: #272727CC;
     text-align: center;
     font-family: Lato;
